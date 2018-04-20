@@ -38,5 +38,8 @@ run_simulation(100, 100, 10, 0.05)
 run_simulation(1000, 1000, 20, 0.05)
 run_simulation(10000, 10000, 50, 0.05)
 
-
+make_plot = function(datapath) {
+  load(datapath)
+  hist(pval)
+}
 
